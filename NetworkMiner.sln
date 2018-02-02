@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkMiner", "NetworkMiner\NetworkMiner.csproj", "{9467C3ED-E582-4D33-84BA-4A6380384084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkWrapper", "WinPCapWrapper\NetworkWrapper.csproj", "{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcapFileHandler", "PcapFileHandler\PcapFileHandler.csproj", "{68DBB54F-C636-42EA-B6EC-6AC35D990E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketParser", "PacketParser\PacketParser.csproj", "{6076F9F3-F975-469E-9E0C-CACCCFF9629F}"
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		Description = NetworkMiner - The Open Source Network Forensic Analysis Tool (NFAT)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Release|x86.ActiveCfg = Release|Any CPU
+		{9467C3ED-E582-4D33-84BA-4A6380384084}.Release|x86.Build.0 = Release|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Release|x86.ActiveCfg = Release|x86
+		{2E55D097-37D8-42C4-9BD4-664EA0CF9CF9}.Release|x86.Build.0 = Release|x86
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Release|x86.ActiveCfg = Release|x86
+		{68DBB54F-C636-42EA-B6EC-6AC35D990E29}.Release|x86.Build.0 = Release|x86
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Debug|x86.ActiveCfg = Debug|x86
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Debug|x86.Build.0 = Debug|x86
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Release|x86.ActiveCfg = Release|x86
+		{6076F9F3-F975-469E-9E0C-CACCCFF9629F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
